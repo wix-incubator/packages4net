@@ -4,12 +4,12 @@ using System.Collections.Generic;
 namespace com.openrest.packages
 {
     /** The Openrest Packages client. */
-    public class OpenrestClient
+    public class PackagesClient
     {
         private static readonly Uri ENDPOINT = new Uri("https://packages.openrest.com/v1.0");
         private readonly PackagesProtocol protocol;
 
-        public OpenrestClient()
+        public PackagesClient()
         {
             protocol = new PackagesProtocol();
 
