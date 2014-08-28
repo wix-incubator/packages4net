@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C# Express 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "packages4net-api", "packages4net-api\packages4net-api.csproj", "{02523BFB-4303-4EC4-BF11-EA18AF2B8422}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "packages4net-client", "packages4net-client\packages4net-client.csproj", "{FB8090D2-6B56-436D-8DB4-051F21A05CB3}"
+	ProjectSection(ProjectDependencies) = postProject
+		{02523BFB-4303-4EC4-BF11-EA18AF2B8422} = {02523BFB-4303-4EC4-BF11-EA18AF2B8422}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{02523BFB-4303-4EC4-BF11-EA18AF2B8422}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02523BFB-4303-4EC4-BF11-EA18AF2B8422}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02523BFB-4303-4EC4-BF11-EA18AF2B8422}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02523BFB-4303-4EC4-BF11-EA18AF2B8422}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB8090D2-6B56-436D-8DB4-051F21A05CB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB8090D2-6B56-436D-8DB4-051F21A05CB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB8090D2-6B56-436D-8DB4-051F21A05CB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB8090D2-6B56-436D-8DB4-051F21A05CB3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
